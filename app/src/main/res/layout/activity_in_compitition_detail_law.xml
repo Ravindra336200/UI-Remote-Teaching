@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".in_compitition_detail_law">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/back_in_compitition"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/video_lecture"
+                android:scaleType="fitCenter"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video Lecture"
+                android:fontFamily="@font/heading_main"
+                android:textSize="26sp"
+                android:gravity="center"
+                android:textColor="#EF6C00"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/back_in_compitition"
+                android:gravity="center"
+                android:layout_marginRight="5dp"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ebook"
+                    android:scaleType="fitCenter"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/e_book"
+                    android:layout_margin="3dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/heading_main"
+                    android:textColor="#EF6C00"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/back_in_compitition"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/study_material"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/study_material"
+                    android:layout_margin="3dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/heading_main"
+                    android:textColor="#EF6C00"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

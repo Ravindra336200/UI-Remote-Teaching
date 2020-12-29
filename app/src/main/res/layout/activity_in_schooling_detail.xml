@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".in_schooling_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_pre_schooling"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:background="@drawable/preschooling_back"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Pre-Schooling"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:fontFamily="@font/heading_main"
+                android:textColor="#FF8F00"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/in_schooling_preschooling"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageButton
+                    android:id="@+id/ib_cls1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_1"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_2"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_3"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageButton
+                    android:id="@+id/ib_cls4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_4"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_5"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_6"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <ImageButton
+                    android:id="@+id/ib_cls7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_7"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_8"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+
+                    />
+
+                <ImageButton
+                    android:id="@+id/ib_cls9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/cl_9"
+                    android:scaleType="fitCenter"
+                    android:background="?android:selectableItemBackground"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <ImageButton
+                android:id="@+id/ib_cls10"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:background="@drawable/preschooling_back"
+                android:src="@drawable/cl_10"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/ib_cls11"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:background="@drawable/preschooling_back"
+                android:src="@drawable/cl_11"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                >
+            </ImageButton>
+            <ImageButton
+                android:id="@+id/ib_cls12"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/preschooling_back"
+                android:src="@drawable/cl_12"
+                android:scaleType="fitCenter"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+
+
+                >
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
